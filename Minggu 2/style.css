@@ -1,0 +1,117 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  header .atas {
+    background-color:#a8dd45;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    padding-top: 30px;
+  }
+  header .atas > img {
+    height: 200px;
+  }
+  header .atas > .atas-text {
+    color: #fff;
+  }
+  header .atas > .atas-text > h1 > span {
+    color: #7690c9;
+  }
+  header p {
+    font-size: 20px;
+  }
+  header .atas > .atas-text > h1,
+  header .atas > .atas-text > p {
+    margin: 0px 0px 5px;
+    font-family: system-ui;
+  }
+  header nav {
+    display: flex;
+    height: 50px;
+    background-color: #418609;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  header nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  header nav ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  h3 {
+    color: #fff;
+    background-color:#a8dd45;
+    width: fit-content;
+    padding: 5px 15px;
+  }
+  .blok-tentang {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .blok-tentang div.left,
+  .blok-tentang div.right {
+    width: 30%;
+  }
+  div.left {
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: system-ui;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 75%;
+  }
+  table td,
+  table th {
+    padding: 10px;
+  }
+  table thead {
+    background-color: #a8dd45;
+    color: #fff;
+  }
+  div.hubungi {
+    background-color: #a8dd45;
+    border-radius: 15px;
+    padding: 20px 15px;
+    width: 20%;
+  }
+  button.submit {
+    background-color: #045222;
+    width: 90%;
+    color: #fff;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+  }
+  .nama label {
+    display: block;
+  }
+  .nama,
+  .nonton,
+  .coba
+  {
+    margin-bottom: 20px;
+  }
+  footer {
+    background-color: #f6f6f6;
+    color: #7690c9;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }

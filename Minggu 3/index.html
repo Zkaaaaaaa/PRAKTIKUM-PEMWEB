@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3</title>
+
+    <!-- ======================== LINE ICONS ======================== -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!-- ======================== SWIPER CSS ======================== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!-- ======================== CSS ======================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ======================== HEADER ======================== -->
+    <header class="header" id="header">
+        <!--NAV-->
+        <nav class="nav container padd-15">
+            <!--NAV LOGO-->
+            <a href="#" class="nav-logo">
+                <h2>AZKA</h2>
+            </a>
+            <!--NAV MENU-->
+            <div class="nav-menu" id="nav-menu">
+                <!--NAV LIST-->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#beranda" class="nav-link active-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tentangsaya" class="nav-link">Tentang saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pengalaman" class="nav-link">Pengalaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hubungisaya" class="nav-link">Hubungi saya</a>
+                    </li>
+                </ul>
+                <!--NAV CLOSE-->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!--NAV BUTTON-->
+            <div class="nav-btns">
+                <!--TOGGLE BTNS-->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ======================== MAIN ======================== -->
+    <main class="main-content">
+        <!-- ======================== BERANDA ======================== -->
+        <section class="beranda" id="beranda">
+            <div class="container">
+                <!--intro-->
+                <div class="intro">
+                    <!--avatar-->
+                    <img src="WhatsApp Image 2022-09-23 at 07.25.26.jpeg" alt="Azka">
+                    <!--info-->
+                    <h1>Azka Muzhaffar S</h1>
+                    <span>Assalamu'alaikum <span class="info-text"> 
+
+                    <!--social icons-->
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/azkamuzhaffar/" target="_blank"><i
+                                    class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="https://github.com/Zkaaaaaaa" target="_blank"><i
+                                    class="lni lni-github-original"></i></a></li>
+                    </ul>
+                    <!--button-->
+                    <div>
+                        <a href="https://www.instagram.com/azkamuzhaffar/" target="_blank"
+                            class="btn btn-default">Follow</a>
+                    </div>
+                
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== TENTANG SAYA ======================== -->
+        <section class="about section" id="tentangsaya">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Tentang Saya</h2>
+                <div class="about-content padd-15">
+                    <div class="rounded">
+                        <div class="row">
+                            <div class="about-text padd-15">
+                                <!-- tentang text -->
+                                <p>perkenalkan nama saya Azka Muzhaffar S, anak pertama dari dua bersaudara, saya memiliki ibu yang hebat! hobi saya adalah berdiskusi dengan orang lain. </p>
+                                <p> Saya suka sekali ONE PIECE, berikut saya lampirkan video ONE PIECE </p>
+                                <div class="buttoncv">
+                                    <a href="#tentangsaya" class="btn btn-default"><s>Download CV</s></a>
+                                </div>
+                            </div>
+                            <div class="skills padd-15">
+                                <div class="row">
+                                    <ul>
+                                        <video controls width="500" height="250">
+                                        <source src="Luffy gomu gomu jet pistol !!!!.mkv">
+                                        </video>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- ======================== Pengalaman ======================== -->
+        <section class="about section" id="pengalaman">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Pengalaman</h2>
+                <article id="pengalaman">
+                    <div class="box">
+                        <p class="no">1</p>
+                        <p class="pengalaman">Ketua Bidang OSIS SMA MANGGALA</p>
+                        <p class="tahun">2019</p>
+                    </div>
+                    <div class="box">
+                        <p class="no">2</p>
+                        <p class="pengalaman">Kepala Rescue SISPALA Carya Buwana</p>
+                        <p class="tahun">2019</p>
+                    </div>
+                    <div class="box">
+                        <p class="no">3</p>
+                        <p class="pengalaman">STAFF EKSTRAKAMPUS HMIF</p>
+                        <p class="tahun">2021</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- ======================== Hubungi saya ======================== -->
+        <section class="kontak section" id="hubungisaya">
+            <div class="container">
+                <!--section title-->
+                <h2 class="section-title padd-15">Hubungi saya</h2>
+                <form action="">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" />
+                    <label for="pesan">Pesan</label>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                    <input class="btn btn-default" type="submit" value="Kirim" />
+                </form>
+                <div class="row">
+                    <div class="kontak-box padd-15">
+                        <div class="kontak-data">
+                            <!--info kontak-->
+                            <div class="kontak-info">
+                                <h3 class="kontak-subtitle">Email</h3>
+                                <span class="kontak-deskripsi">
+                                    <i class="lni lni-user kontak-icon"></i>
+                                    azka.120140111@student.itera.ac.id
+                                </span>
+                                <h3 class="kontak-subtitle">Telepon</h3>
+                                <span class="kontak-deskripsi">
+                                    <i class="lni lni-user kontak-icon"></i>
+                                    +62 822-1006-2895
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================== Footer ======================== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; 2022 Azka Muzhaffar S. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
